@@ -1,0 +1,45 @@
+# Ignore all IntelliJ stuff and include the important things
+# @see https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+/.idea/*
+!/.idea/codeStyles/
+!/.idea/jsLinters/
+!/.idea/runConfigurations/
+!/.idea/dataSources.xml
+!/.idea/codeStyleSettings.xml
+!/.idea/checkstyle-idea.xml
+!/.idea/encodings.xml
+!/.idea/sqldialects.xml
+!/.idea/prettier.xml
+!/.idea/eclipseCodeFormatter.xml
+*.iml
+*.ipr
+*.iws
+!/.idea/organisation.iml
+
+# Ignore all VS Code stuff and include the important things
+/.vscode/*
+.settings
+.project
+.classpath
+.factorypath
+!/.vscode/settings.json
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# ASDF
+.tool-versions
+/frontend-2.0/src/main/web/uniport-organisation-frontend-2.0-13.2.0.tgz
+/frontend-2.0/src/main/web/dist/*
+/frontend-2.0/src/main/web/node/node_modules/*
+
+# integration test
+/integration-test/src/test/resources/graphql/node_modules/
+/integration-test/src/test/resources/graphql/node/
+
+# Hasura
+/graphql/src/test/resources/organisation-graphql/volume/*
